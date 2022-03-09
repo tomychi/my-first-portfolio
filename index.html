@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portafolio</title>
+    <!--Bootstrap min-->
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <!--Styles -->
+    <link href="css/styles.css" rel="stylesheet" />
+    <!--icon Bootstrap-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css"
+    />
+    <!--animate-->
+    <link rel="stylesheet" href="css/animate.min.css">
+        <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+    <!-- fonts google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Navigation -->
+    
+      <div class="header header-fixed">
+        <div class="navbar container">
+          <div class="logo"><a href="index.html">Tomychi</a></div>
+          <input type="checkbox" id="navbar-toggle" />
+          <label for="navbar-toggle"><i></i></label>
+          <nav class="menu ">
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#proyects">Proyects</a></li>
+              <li><a href="#contacts">Contacts</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+
+    <!-- end of navigation -->
+
+    <!--Home -->
+    <section class="home" id="about">
+      <div class="hero-img">
+        <img src="images/hero-img-dark.gif" alt="computer" />
+      </div>
+      <div class="presentacion">
+        <h1>Hola, soy <span>Tomás Arcostanzo</span></h1>
+        <p>
+          Desarrollador Frontend <br />
+          y estudiante en Analista de sistemas <br />
+          en la UNRC.
+        </p>
+        <div class="locale">
+          <a href="https://goo.gl/maps/J4NfZBBoTPchcxdK6" target="_blank">
+          <i class="bi bi-geo">
+            <span>Río Cuarto, Córdoba, Argentina</span>
+          </i>
+          </a>
+        </div>
+      </div>
+
+    </section>
+    <!--tecnologias --> 
+    <section class="tecnology">
+          <h2>Tecnologias</h2>
+          <ul class="skills-list">
+            <li>Html 5</li>
+            <li>JavaScript (ES6+)</li>
+            <li>React</li>
+            <li>TypeScript</li>
+            <li>Node.js</li>
+          </ul> 
+    </section>
+
+
+        <!-- Projects Start -->
+    <div class="proyects container-xxl py-5" id="proyects">
+      <br> 
+        <div class="container">
+            <div class="section-title text-center">
+                <h1 class="display-5 mb-5">Mis Proyectos</h1>
+            </div>
+            <div class="row mt-n2 wow fadeInUp" data-wow-delay="0.3s">
+                <div class="col-12 text-center">
+                    <ul class="list-inline mb-5" id="portfolio-flters">
+                        <li class="mx-2 active" data-filter="*">Todos</li>
+                        <li class="mx-2" data-filter=".first">Frontend</li>
+                        <li class="mx-2" data-filter=".second">Backend </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row g-4 portfolio-container">
+                <div class="col-lg-4 col-md-6 portfolio-item first wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="rounded overflow-hidden">
+                        <div class="position-relative overflow-hidden">
+                            <img class="img-fluid w-100" src="images/portfolio-1.jpg" alt="">
+                            <div class="portfolio-overlay">
+                                <a class="btn btn-square btn-outline-light mx-1" href="images/portfolio-1.jpg" target="_blank" data-lightbox="portfolio"><i class="bi bi-eye"></i></a>
+                                <a class="btn btn-square btn-outline-light mx-1" href="https://github.com/tomychi/pagine-css" target="_blank"><i class="bi bi-github"></i></a>
+                            </div>
+                        </div>
+                        <div class="border border-2 border-top-0 p-4">
+                            <p class="fw-medium mb-2">Coffe Minzzi</p>
+                            <h5 class="lh-base mb-0">Pagina ficticia de una cafeteria de mi ciudad</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item second wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="rounded overflow-hidden">
+                        <div class="position-relative overflow-hidden">
+                            <img class="img-fluid w-100" src="images/portfolio-2.jpg" alt="">
+                            <div class="portfolio-overlay">
+                                <a class="btn btn-square btn-outline-light mx-1" href="images/portfolio-2.jpg"
+                                target="_blank" data-lightbox="portfolio"><i class="bi bi-eye"></i></a>
+                                <a class="btn btn-square btn-outline-light mx-1" target="_blank" href="#github"><i class="bi bi-github"></i></a>
+                            </div>
+                        </div>
+                        <div class="border border-2  border-top-0 p-4">
+                            <p class="fw-medium mb-2">Jagguar</p>
+                            <h5 class="lh-base mb-0">Pagina para presentar la nueva marca de ropa</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item first wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="rounded overflow-hidden">
+                        <div class="position-relative overflow-hidden">
+                            <img class="img-fluid w-100" src="images/portfolio-3.jpg" alt="">
+                            <div class="portfolio-overlay">
+                                <a class="btn btn-square btn-outline-light mx-1" href="images/portfolio-3.jpg" target="_blank" data-lightbox="portfolio"><i class="bi bi-eye"></i></a>
+                                <a class="btn btn-square btn-outline-light mx-1" target="_blank" href="#github"><i class="bi bi-github"></i></a>
+                            </div>
+                        </div>
+                        <div class="border border-2  border-top-0 p-4">
+                            <p class=" fw-medium mb-2">Concesionaria</p>
+                            <h5 class="lh-base mb-0">Pagina hecha para exponer automoviles</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item second wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="rounded overflow-hidden">
+                        <div class="position-relative overflow-hidden">
+                            <img class="img-fluid w-100" src="images/portfolio-4.jpg" alt="">
+                            <div class="portfolio-overlay">
+                                <a class="btn btn-square btn-outline-light mx-1" href="images/portfolio-4.jpg" target="_blank"data-lightbox="portfolio"><i class="bi bi-eye"></i></a>
+                                <a class="btn btn-square btn-outline-light mx-1" target="_blank" href="#github"><i class="bi bi-github"></i></a>
+                            </div>
+                        </div>
+                        <div class="border border-2  border-top-0 p-4">
+                            <p class="fw-medium mb-2">Vivero</p>
+                            <h5 class="lh-base mb-0">Pagina para la venta de flores y plantas de hogar</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item first wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="rounded overflow-hidden">
+                        <div class="position-relative overflow-hidden">
+                            <img class="img-fluid w-100" src="images/portfolio-5.jpg" alt="">
+                            <div class="portfolio-overlay">
+                                <a class="btn btn-square btn-outline-light mx-1" href="images/portfolio-5.jpg" target="_blank" data-lightbox="portfolio"><i class="bi bi-eye"></i></a>
+                                <a class="btn btn-square btn-outline-light mx-1" target="_blank" href="#github"><i class="bi bi-github"></i></a>
+                            </div>
+                        </div>
+                        <div class="border border-2 border-top-0 p-4">
+                            <p class="fw-medium mb-2">Inmuebles</p>
+                            <h5 class="lh-base mb-0">Elaborada para la exposicion de viviendasa</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item second wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="rounded overflow-hidden">
+                        <div class="position-relative overflow-hidden">
+                            <img class="img-fluid w-100" src="images/portfolio-6.jpg" alt="">
+                            <div class="portfolio-overlay">
+                                <a class="btn btn-square btn-outline-light mx-1" href="images/portfolio-6.jpg" target="_blank" data-lightbox="portfolio"><i class="bi bi-eye"></i></a>
+                                <a class="btn btn-square btn-outline-light mx-1" target="_blank" href="#github"><i class="bi bi-github"></i></a>
+                            </div>
+                        </div>
+                        <div class="border border-2 border-top-0 p-4">
+                            <p class="fw-medium mb-2">Base de datos</>
+                            <h5 class="lh-base mb-0">Mini base de datos para control de clientes</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Projects End -->
+    <br>
+    <!--Contacts-->
+    <footer id="contacts">
+        <div class="col-md-6 col-lg-8 contacto">
+                <h1 class="mt-5">Contactame</h1>
+                <div class="row d-flex justify-content-center align-items-center">
+                    <div class="col-xl-6 col-sm-12 col-md-12 text-center">
+                        <p class="lead">Estoy abierto a consultas, contactame por alguna de mis redes sociales</p>
+                    </div>
+                </div>
+                <p>
+                    <i class="bi bi-envelope"></i>&nbsp;Enviame un email: <a href="tomychi352@gmail.com" class="external__link">tomychi352@gmail.com</a>
+                </p>
+                <div class="sociallinks">
+                    <a href="https://www.instagram.com/tomychiblack/" target="_blank" rel="noopener noreferrer" name="Instagram link" aria-label="Instagram"> <i class="bi bi-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/tom%C3%A1s-arcostanzo-4a1b50162/" target="_blank" rel="noopener noreferrer" name="linkedin link" aria-label="linkedin"> <i class="bi bi-linkedin"></i></a>
+                    <a href="https://twitter.com/Tomychi1" target="_blank" rel="noopener noreferrer" name="Twitter link" aria-label="Twitter"> <i class="bi0 bi-twitter"></i></a>
+                    <a href="https://github.com/tomychi" target="_blank" rel="noopener noreferrer" aria-label="github"> <i class="bi bi-github"></i></a>
+                    <a href="https://t.me/Tomychi" target="_blank" rel="noopener noreferrer" name="Telegram link" class="ml-2" aria-label="Telegram"> <i class="bi bi-telegram"></i></a>
+                </div>
+            </div>
+    </footer>
+
+
+
+
+    <!-- Scripts -->
+    <!-- Bootstrap framework -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+
+  </body>
+</html>
