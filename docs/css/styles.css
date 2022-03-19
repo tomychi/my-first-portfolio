@@ -175,15 +175,26 @@ html {
 	}
 
 /* proyects */
-	#portfolio-flters li {
+#portfolio-flters li {
     display: inline-block;
     font-weight: 500;
     color: var(--color-text);
     cursor: pointer;
-    transition: .5s;
+    transition: .2s;
     border-bottom: 2px solid transparent;
 	
 }
+
+#portfolio-flters li button {
+	all: unset;
+}
+.hidden-proyects {
+	visibility: hidden;
+	opacity: 0;
+	order: 1;
+	transition: opacity 0.3s ease;
+}
+
 .proyects {
 	margin-top: 5rem;
 	zoom: 75%;
@@ -198,9 +209,10 @@ html {
 	color: var(--color-secundary);
 }
 #portfolio-flters li:hover,
-#portfolio-flters li.active {
+#portfolio-flters li button.active {
     color: var(--color-secundary);
     border-color: var(--color-secundary);
+	border-bottom: 1px solid var(--color-secundary);
 }
 
 
